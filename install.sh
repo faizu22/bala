@@ -7,7 +7,7 @@
 set -u
 
 abort() {
-  printf "%s\n" "$@" >&2
+  printf "%s\n" "$@" >&3
   exit 1
 }
 
